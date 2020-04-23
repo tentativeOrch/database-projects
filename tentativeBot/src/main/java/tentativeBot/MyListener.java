@@ -7,6 +7,5 @@ public class MyListener extends ListenerAdapter {
 	@Override
 	public void onMessageReceived(MessageReceivedEvent event) {
 		System.out.println(event.getMessage().getContentDisplay());
-		System.out.println(event.getMessage().getId());
 	}
 }
