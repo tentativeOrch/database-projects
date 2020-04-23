@@ -11,7 +11,7 @@ public class Bot {
 	public static void main(String[] args) throws LoginException {
 		
 		@SuppressWarnings("deprecation")
-		JDA jda = new JDABuilder("NjQ4MzUyNTExOTUwMDYxNTcw.XqCPMQ.-4W-NUsiQYsFJKOfsIYCGgkgULs").build();
+		JDA jda = new JDABuilder("").build();
 		jda.addEventListener(new MyListener());
 
 	}
